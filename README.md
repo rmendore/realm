@@ -4,6 +4,24 @@
 
 Realm is a next-generation, ultra-lightweight network defense engine built on eBPF (XDP) and Shannon Entropy. Deployed at the deepest layer of the Linux kernel (Ring 0), it calculates the microscopic thermodynamic properties of network packets in real-time, physically severing unknown threats and 0-day attacks in nanoseconds.
 
+## ⚠️ WARNING: Highly Experimental (Read Before Running)
+
+**DO NOT deploy this on a production server yet.** Realm is currently in its MVP (Minimum Viable Product) stage. The entropy-based physical severing is extremely aggressive. Because it currently lacks protocol whitelisting and safe-mode escape hatches, **it may misidentify your legitimate highly-encrypted traffic (such as SSH or HTTPS) as anomalies and instantly drop your connection, locking you out of your own server.**
+
+* This is a proof-of-concept for kernel-level traffic tension observation.
+* Please run it **ONLY** in a local VM or a test environment where you have physical/console access to reboot.
+* Active development is ongoing to introduce protocol bypasses and safe-mode whitelists. You have been warned.
+
+---
+**⚠️ 危险警告：极度实验性项目（运行前必读）**
+
+**绝对不要在生产环境中部署！**
+Realm 目前处于极早期 MVP 阶段。基于香农熵的物理熔断极度激进。由于目前尚未实装“协议白名单”和“安全逃生舱”，**它极有可能会将你正常的、高熵值的加密流量（如 SSH 远程登录或 HTTPS）误判为异常，并瞬间切断连接，导致你彻底失去对服务器的控制权。**
+
+* 本项目目前仅作为“内核级流量张力观测”的概念验证 (POC)。
+* 请**仅在**虚拟机或拥有控制台重启权限的测试环境中运行。
+* 协议过滤和白名单机制正在紧张开发中。如果你锁死了自己的服务器，后果自负。
+  
 ## 👁️ Why Realm? (A Reflection on the Industry)
 
 The cybersecurity landscape has long suffered from traditional, bloated security software.
